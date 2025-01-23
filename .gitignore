@@ -76,3 +76,7 @@ dvc.lock
 # Otros
 .DS_Store
 Thumbs.db
+
+# Configuración de entornos de desarrollo
+.idea/
+.vscode/
