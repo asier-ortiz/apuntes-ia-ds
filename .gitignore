@@ -1,0 +1,78 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Configuración de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py~
+*~
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de bases de datos
+*.db
+*.sqlite3
+
+# Archivos de configuración de entorno
+.env
+.env.*
+
+# Dependencias instaladas (por si se regeneran)
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Archivos de logs
+*.log
+
+# Datos temporales y archivos grandes
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.hdf5
+*.pkl
+*.sav
+*.zip
+*.gz
+*.tar
+*.tgz
+
+# Modelos y resultados
+*.h5
+*.hdf5
+*.joblib
+*.model
+*.ckpt
+
+# Salidas de análisis
+*.pdf
+*.png
+*.jpg
+*.svg
+*.gif
+
+# Archivos de caché de librerías de ciencia de datos
+*.ipynb_checkpoints
+__pycache__/
+*.pkl
+*.joblib
+.cache/
+*.dvc
+dvc.lock
+.dvc/
+
+# Otros
+.DS_Store
+Thumbs.db
