@@ -35,7 +35,7 @@ build/
 *.log
 
 # Datos temporales y archivos grandes
-data/
+#data/
 datasets/
 *.csv
 *.tsv
