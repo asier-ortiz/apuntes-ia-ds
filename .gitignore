@@ -24,7 +24,7 @@ __pycache__/
 .env
 .env.*
 
-# Dependencias instaladas (por si se regeneran)
+# Dependencias
 *.egg-info/
 *.egg
 dist/
@@ -35,7 +35,6 @@ build/
 *.log
 
 # Datos temporales y archivos grandes
-#data/
 datasets/
 *.csv
 *.tsv
@@ -57,11 +56,14 @@ datasets/
 *.ckpt
 
 # Salidas de análisis
-*.pdf
 *.png
 *.jpg
 *.svg
 *.gif
+
+# Archivos PDF
+!*.pdf
+!*/.pdf/
 
 # Archivos de caché de librerías de ciencia de datos
 *.ipynb_checkpoints
