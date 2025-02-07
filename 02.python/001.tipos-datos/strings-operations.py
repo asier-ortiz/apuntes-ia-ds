@@ -22,7 +22,8 @@ print(variable3.replace("u", "a"))
 print(variable3)
 print(variable3.replace("Hola", "Adiós"))
 
-# El método split(x) nos permite reemplazar caracteres en un texto
+# El método split(x) nos permite partir un texto y obtener partes del mismo
+# devuelve una lista con todos los elementos que han sido separados
 variable3 = "Hola, mundo, qué tal"
 print(variable3.split(","))
 variable3 = "Hola mundo"
